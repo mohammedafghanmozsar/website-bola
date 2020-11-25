@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    font-family: "Times New Roman";
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    width: 800px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Stamford_Bridge_Clear_Skies.JPG/800px-Stamford_Bridge_Clear_Skies.JPG);
+}
+
+.header-left{
+    padding: 21px 15px;
+    float: left;
+    font-family: "Times New Roman";
+    color: #cc9900;
+}
+
+.header-right{
+    float: right;
+    transition: all 0.5s; /*untuk animasi yang berubah setiap saat fungsi hover*/
+}
+
+.header-right:hover{
+    background-color: #00004d;
+}
+
+.header-right a{
+    line-height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #cc9900;
+    display: block;
+}
+
+.container{
+    width:500px; 
+    padding: 0 15px;
+    margin:0 auto;
+}
+
+.button{
+    width:150px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    font-size:24px;
+    color: #fff;
+}
+
+.btn{
+    background: #ffbf00;
+    border-bottom:solid 5px #cc9900;
+    border-radius:5px;
+    margin: auto;
+}
+
+.button:hover{
+    position:relative;
+    top:5px;
+    left:5px;
+    border-bottom:none;
+    width:150px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(#ffbf00 #cc9900)
+}
+
+.content{
+    width: 800px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.animate__animated{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+footer{
+    height: 60px;
+    width: 800px;
+    background-color: #cc9900;
+}
+
+footer p{
+    text-align: center;
+    padding: 18px 0;
+}
+
+/*animasi teks*/
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+/* The animation code */
+@keyframes example {
+  from {background-color: #ffffff;}
+  to {background-color: #cc9900;}
+}
+
+/* The element to apply the animation to */
+body {
+  width: 100px;
+  height: auto;
+  background-color: #ffffff;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@media (min-width: 720px) and (max-width: 992px)}
+
+header{
+    height: 60px;
+    width: 800px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Stamford_Bridge_Clear_Skies.JPG/800px-Stamford_Bridge_Clear_Skies.JPG);
+}
+
+.header-left{
+    padding: 21px 15px;
+    float: left;
+    font-family: "Times New Roman";
+    color: #cc9900;
+}
+
+.header-right{
+    float: right;
+    transition: all 0.5s; /*untuk animasi yang berubah setiap saat fungsi hover*/
+}
+
+.header-right:hover{
+    background-color: #00004d;
+}
+
+.header-right a{
+    line-height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #cc9900;
+    display: block;
+}
+
+.container{
+    width:500px; 
+    padding: 0 15px;
+    margin:0 auto;
+}
+
+.button{
+    width:150px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    font-size:24px;
+    color: #fff;
+}
+
+.btn{
+    background: #ffbf00;
+    border-bottom:solid 5px #cc9900;
+    border-radius:5px;
+    margin: auto;
+}
+
+.button:hover{
+    position:relative;
+    top:5px;
+    left:5px;
+    border-bottom:none;
+    width:150px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(#ffbf00 #cc9900)
+}
+
+.content{
+    width: 800px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.kolom-koran{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+footer{
+    height: 60px;
+    width: 800px;
+    background-color: #cc9900;
+}
+
+footer p{
+    text-align: center;
+    padding: 18px 0;
+}
+
+/*animasi teks*/
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+/* The animation code */
+@keyframes example {
+  from {background-color: #ffffff;}
+  to {background-color: #cc9900;}
+}
+
+/* The element to apply the animation to */
+body {
+  width: 100px;
+  height: auto;
+  background-color: #ffffff;
+  animation-name: example;
+  animation-duration: 4s;
+}
